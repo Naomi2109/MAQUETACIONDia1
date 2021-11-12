@@ -1,0 +1,72 @@
+*{
+    padding-top: 0%;
+    margin-top: 0%;
+}
+body{ 
+    background-color:wheat;
+}
+header{
+
+    background-image: url("fto.jpg");
+    background-repeat:repeat-x;
+    background-size: 20% 30%;
+    text-align: center;
+
+}
+header #index ul li{
+    display:inline-block;
+    padding: 30px;
+    align-content: center;
+    font-size: 20px;
+   
+}
+header #index ul li a{
+    color:white;
+    text-decoration: thistle;
+}
+header #index ul li a:hover{
+    color:tomato;
+    text-decoration:underline;
+}
+p {
+    font-size: 19px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:dimgray;
+    text-align:justify;
+    padding-left:10%;
+    padding-right: 10%;
+    
+}
+  
+h1{
+    padding-top: 30px;
+    text-align:center;
+    font-family: "Signpainter";
+    background: linear-gradient( black, rgb(220, 220, 148));
+    -webkit-background-clip:text;
+    color:transparent;
+    font-size: 80px;
+    
+    
+  
+
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-family:"didot";
+    padding-top: 50px;
+    color: ;
+    
+}
+h4{
+    text-align:center;
+    font-size: 25px;
+    font-family: "didot";
+}
+h5{
+    text-align:left;
+    font-size: 17px;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+
+
