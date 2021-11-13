@@ -1,32 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="">
-    <link rel="stylesheet" href="">
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cv.css">
+
+
     <title>CV</title>
 </head>
 <body>
-    <header>
+    <header> 
         <h1>Naomi Gamba Gamundi</h1>
-        <div id="index">
-            <ul>
-                <li><a href="">Inicio</a></li>
-                <li><a href="">CV</a></li>
-                <li><a href="">Contacto</a></li>
-            </ul>
-            <img src="foto.jpg"  width="150" height="200" fxFlexAlign="left">
+           
+            <div id="flex">
+                
+                <img src="./foto.jpg" class="fotiño">
+                <div class ="datos">
+            
+                    <p>Palma de Mallorca, 07014</p>
+                    <p>622 441 443</p>
+                    <p>Naomi.gamba21@gmail.com </p>
+
+                </div> 
+                
+            </div> 
+        </header> 
+    <section> 
+        <p class="ex"> Soy una chica responsable, organizada y trabajadora.</p>
+        <P class="ex">Capacitada para trabajar en equipo. Busco oportunidades que me permitan desarrollarme profesionalmente.</P>
+    
+       <div><a href="aficiones.html">Aficiones</a></div>
+
+        <h3>Formación</h3>
+        <div class="ex">
+        <p>FP Grado Medio Gestión Administrativa - CIDE - Septiembre2016 finalizado Junio2018 </p>
+        <p>FP Grado Superior Admnistración y Finanzas - IES SES ESTACIONS - Septiembre2018 finalizado Junio2020 </p>
+        <p>BootCamp Desarrollo Web y Móvil - CODENOTCH - Septiembre2021 (Cursando Actualmente) </p>
         </div>
-    </header>
-        <h2></h2>
-        <h4></h4>
-    <section>
-        <h6>
-            <circle></circle>
-        </h6>
     </section>
+    <hr>
+    <section>
+        <h3>Experiencia laboral </h3>
+        <div class="ex">
+        <p >Camarera - Restuarante Port Blanc - Marzo2016 hasta Marzo2017</p>
+        <p >Auxiliar Administrativa - Proa Seguros - Abril2019 hasta Mayo2021<p>
+        <p >Camarera - Restaurante Pesquero - Abril2017 hasta Octubre2021 </p>
+        </div> 
+    </section>
+    <hr>    
+    <section> 
+        <h3>Idiomas</h3>
+        <div class="ex">
+        <p>Castellano - Nativo </p>
+        <p>Inglés - Báscio </p>
+        <p>Italiano - Básico </p>
+        </div>
+    </section>
+    <hr>    
+    <section> 
+        <h3>Otros datos de interés </h3>
+        <div class="ex">
+        <p>Permiso de circulación B y A1 (Vehículo propio)</p>
+        <p>Certificado Curso Formativo grupo C, Mediador de Seguros</p>
+        <p>Certificado Curso Formativo grupo B, Mediador de Seguros</p>
+        <p>Disponibilidad para entrar en el puesto de trabajo inmediatamente</p>
+        </div>
+
+        
+
+    </section>
+    <section>
+        <form class="formulario">
+        <div><center>
+            <input type="text" name="nombre" placeholder="nombre">
+            <input type="text" name="email" placeholder="email">
+            </center>
+        </div> 
+        <div><Center>
+            <button type= "reset">Borrar</button>
+            <button type="submit"> Enviar </button>
+            </Center>
+        </div> 
+        </form>
+    </section>
+     
 </body>
 </html>

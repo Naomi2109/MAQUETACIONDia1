@@ -1,0 +1,84 @@
+*
+{
+    margin-top: 0%;
+    margin-left: 1%;
+    
+}
+header
+{
+    margin:0%;
+    background-color: cornflowerblue;
+    padding:0%;
+}
+h1
+{
+    font-size: 210%;
+    font-family: fantasy;
+    color:blue;
+    text-align: right;
+
+}
+h3
+{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkblue;
+}
+.ex
+{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+}
+.fotiño 
+{
+    width: 15%;
+    height: 45%;
+    
+}
+.datos
+{
+    text-align: right;
+    color:black;
+    font-size:15px;
+
+
+}
+#index 
+{
+   font-size: small;
+   color:black;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   display:inline-block;
+   align-content: center;
+
+
+}
+#flex
+{
+    display:flex;
+    flex-direction:row-reverse;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-content: center;
+    padding: 2%;
+    
+}
+
+.formulario {
+    width: 600px;
+    background:rgb(99, 152, 216);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 7px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    box-shadow: 7px 13px 37px #000;
+}
+hr
+{
+    align-items: center;
+    width: 1000px;
+    height: 5px;
+    background-color:blue;
+}
